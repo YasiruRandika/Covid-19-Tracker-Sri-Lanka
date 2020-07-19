@@ -3,7 +3,7 @@ body {
 }
 
 .cardView {
-    width: auto;
+    width: 200px auto;
     height: auto;
     h1 {
         font-size: 16px;
@@ -61,6 +61,24 @@ body {
         }
         h3 {
             color: #ff0022;
+        }
+    }
+    .inHospalital {
+        border: 1px solid #fff0c0;
+        h2 {
+            color: #ffee00;
+        }
+        h3 {
+            color: #ffd000;
+        }
+    }
+    .recovered {
+        border: 1px solid #c0ffe7;
+        h2 {
+            color: #1eb386;
+        }
+        h3 {
+            color: #00b846;
         }
     }
 }
