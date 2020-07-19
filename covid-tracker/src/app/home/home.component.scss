@@ -3,6 +3,64 @@ body {
 }
 
 .cardView {
-    width: 200px;
-    height: 100px;
+    width: auto;
+    height: auto;
+    h1 {
+        font-size: 16px;
+        color: #a7a7a7;
+    }
+    h2 {
+        font-size: 14px;
+        padding-left: 10px;
+    }
+    h3 {
+        font-size: 20px;
+        font-weight: bold;
+        padding-left: 10px;
+    }
+    #imgBox {
+        width: 40px;
+        height: 40px;
+        margin-top: 5px;
+    }
+    .boxDetail {
+        display: grid;
+        grid-template-columns: 50px 100px;
+        grid-template-rows: 20px;
+        padding: 10px;
+        width: 170px;
+        height: 50px;
+        border-radius: 10px;
+        justify-content: center;
+    }
+    .icon {
+        grid-row: 1 / span 2;
+        justify-content: center;
+        align-items: center;
+    }
+    .cardContainer {
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        grid-gap: 15px;
+        justify-content: center;
+        align-items: center;
+    }
+    .totalCases {
+        border: 1px solid #c0e0ff;
+        h2 {
+            color: #43a4ff;
+        }
+        h3 {
+            color: #00a2ff;
+        }
+    }
+    .deaths {
+        border: 1px solid #ffc0c0;
+        h2 {
+            color: #ff4353;
+        }
+        h3 {
+            color: #ff0022;
+        }
+    }
 }
